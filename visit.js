@@ -32,7 +32,7 @@ const visit = async (req, res) => {
   // 2. 방문했으면 방문한 코스입니다.
   // 여러번 방문이 가능하다면 기록을 남기고 몇번 방문했는지 기록
   const QUERY2 = `
-  SELELCT 
+  SELECT 
     user_course_id
   FROM
     user_course
