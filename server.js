@@ -39,3 +39,5 @@ server.post("/visit", auth, visit);
 server.listen(8080, () => {
   console.info(`${PORT} 서버 오픈`);
 });
+
+// 김우성 010-7128-6477
